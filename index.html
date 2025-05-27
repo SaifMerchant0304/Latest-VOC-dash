@@ -1,0 +1,1630 @@
+<script type="text/javascript">
+        var gk_isXlsx = false;
+        var gk_xlsxFileLookup = {"3.csv":false};
+        var gk_fileData = {"3.csv":"Store Code,Mall/HS,Business Name,Zone,Zone New,City,State,Comment Date,Comment Date_NEW,Month_No.,Month,Quarter(Months),Quarter,FY,Customer Response,Customer Rating,Sentiment,Response_Type\r\nAJM,High-Street,Mochi Shoes,West Zone,West,Ajmer,Rajasthan,01-04-2022 01:20,01-04-2022,4,A. APR,Q1(AMJ),Q1,FY22-23,Good quality,5,POSITIVE,Product Quality\r\nCBQ,High-Street,Crocs,South Zone,South,Chennai,Tamil Nadu,01-04-2022 12:59,01-04-2022,4,A. APR,Q1(AMJ),Q1,FY22-23,Collections were good.,5,POSITIVE,Product Assortment\r\nCHM,Mall,Mochi Shoes,South Zone,South,Calicut,Kerala,01-04-2022 23:36,01-04-2022,4,A. APR,Q1(AMJ),Q1,FY22-23,Bad service and they provide the ultimate bad quality product. Don’t ever expect any service from this outlet. Utmost bad experience from the shop. They even speak from the back that if customer pay 10k or above they take care or they don’t look after. I felt like I was begging or they made me do in that way.,1,NEGATIVE,In-Store Experience\r\nBTM,High-Street,Mochi Shoes,North Zone,North,Bhatinda,Punjab,02-04-2022 14:02,02-04-2022,4,A. APR,Q1(AMJ),Q1,FY22-23,Mochi shoes is very good,5,POSITIVE,In-Store Experience\r\nPGQ,High-Street,Crocs,West Zone,West,Pune,Maharashtra,02-04-2022 14:23,02-04-2022,4,A. APR,Q1(AMJ),Q1,FY22-23,Wow! Good service good staff good knowledge. Keep it up,5,POSITIVE,In-Store Experience\r\nPWQ,Mall,Crocs,West Zone,West,Pune,Maharashtra,02-04-2022 14:24,02-04-2022,4,A. APR,Q1(AMJ),Q1,FY22-23,Great,5,POSITIVE,In-Store Experience\r\nGIQ,High-Street,Crocs,West Zone,West,Gandhidam,Gujarat,02-04-2022 14:42,02-04-2022,4,A. APR,Q1(AMJ),Q1,FY22-23,Excellent 👌🏻 In Quality,5,POSITIVE,Product Quality\r\nDDM,High-Street,Mochi Shoes,North Zone,North,Dehradun,Uttarakhand,02-04-2022 18:30,02-04-2022,4,A. APR,Q1(AMJ),Q1,FY22-23,Excellent collection,4,POSITIVE,Product Assortment\r\nBOM,Mall,Mochi Shoes,South Zone,South,Bangaluru,Karnataka,02-04-2022 18:58,02-04-2022,4,A. APR,Q1(AMJ),Q1,FY22-23,I felt not much of models were available in crocs. But other brands felt okay with different models.,3,NEUTRAL,Product Assortment\r\nPBM,High-Street,Mochi Shoes,East Zone,East,Patna,Bihar,02-04-2022 20:59,02-04-2022,4,A. APR,Q1(AMJ),Q1,FY22-23,Overpriced..,2,NEGATIVE,Product Pricing\r\nMSM,High-Street,Mochi Shoes,South Zone,South,Chennai,Tamil Nadu,02-04-2022 22:09,02-04-2022,4,A. APR,Q1(AMJ),Q1,FY22-23,The variety in heels to be increased,4,POSITIVE,Product Assortment\r\nGDM,Mall,Mochi Shoes,North Zone,North,Gurgaon,Haryana,03-04-2022 16:34,03-04-2022,4,A. APR,Q1(AMJ),Q1,FY22-23,Attentive staff.....good range,4,POSITIVE,Product Assortment\r\nMNM,High-Street,Mochi Shoes,South Zone,South,Manipal,Karnataka,03-04-2022 17:21,03-04-2022,4,A. APR,Q1(AMJ),Q1,FY22-23,Worst customer service. It seems local  products are being tagged with the Mochi label. After sales response and services are pathetic.,1,NEGATIVE,In-Store Experience\r\nMSM,High-Street,Mochi Shoes,South Zone,South,Chennai,Tamil Nadu,03-04-2022 18:00,03-04-2022,4,A. APR,Q1(AMJ),Q1,FY22-23,New collections are available,5,POSITIVE,Product Assortment\r\nBGM,High-Street,Mochi Shoes,South Zone,South,Bangaluru,Karnataka,03-04-2022,44654.89087,4,A. APR,Q1(AMJ),Q1,FY22-23,\"The salesman who assisted me , his name was Mohammad yusuf. He was extremely inappropriate.  He started touching me and my daughter. I can't believe this is the experience i got in Mochi. Train your salesman to be respectful.\",1,NEGATIVE,In-Store Experience\r\nBGM,High-Street,Mochi Shoes,South Zone,South,Bangaluru,Karnataka,03-04-2022,44654.90331,4,A. APR,Q1(AMJ),Q1,FY22-23,\"Inappropriate salesman.\nCan't believe the experience i got in mochi. The salesman Mohammed yusuf , passed awful comments on my mother's shoe size. Are your salesman here to sell or body shame people?\nLeaving that aside, he was very inappropriate. He touched me and my mother inappropriately.\n\nI dont think so I will visit mochi again.\n\nYou sell international brands but still can't afford to teach your staff basic etiquette?\",1,NEGATIVE,In-Store Experience\r\nAJM,High-Street,Mochi Shoes,West Zone,West,Ajmer,Rajasthan,04-04-2022,44655.33554,4,A. APR,Q1(AMJ),Q1,FY22-23,Quality footwear. Really polite and professional staff.,4,POSITIVE,Product Quality\r\nGOQ,High-Street,Crocs,West Zone,West,Goa,Goa,04-04-2022,44655.63863,4,A. APR,Q1(AMJ),Q1,FY22-23,Nice experience and staff was very helpful,5,POSITIVE,In-Store Experience\r\nAHM,High-Street,Mochi Shoes,North Zone,North,Allahabad,Uttar Pradesh,04-04-2022,44655.71948,4,A. APR,Q1(AMJ),Q1,FY22-23,Good collection but didn't find my size.,4,POSITIVE,Size Availability\r\nCFM,Mall,Mochi Shoes,South Zone,South,Coimbatore,Tamil Nadu,04-04-2022,44655.82113,4,A. APR,Q1(AMJ),Q1,FY22-23,Purchased slipper for my wife. Good quality material for good price 👌,5,POSITIVE,Product Quality\r\nCMQ,Mall,Crocs,East Zone,East,Kolkata,West Bengal,04-04-2022,44655.87316,4,A. APR,Q1(AMJ),Q1,FY22-23,Nice one,5,POSITIVE,Product Pricing\r\nBIQ,High-Street,Crocs,South Zone,South,Bangaluru,Karnataka,05-04-2022,44656.30045,4,A. APR,Q1(AMJ),Q1,FY22-23,\"Lots of variety of footware, comfortable and cool but bit costly\",5,POSITIVE,Product Pricing\r\nJNQ,Mall,Crocs,East Zone,East,Jamshedpur,Jharkhand,05-04-2022,44656.32593,4,A. APR,Q1(AMJ),Q1,FY22-23,I want  Hr number,5,POSITIVE,OTHERS\r\nMSM,High-Street,Mochi Shoes,South Zone,South,Chennai,Tamil Nadu,05-04-2022,44656.57123,4,A. APR,Q1(AMJ),Q1,FY22-23,They somewhat satisfies the customers compared to others around Anna nagar. They provide various brands for both ladies and gents. They also have their own brand. The designs are good. The rate is little bit higher and still holds good for its design and quality.,4,POSITIVE,Product Quality\r\nCDM,High-Street,Mochi Shoes,North Zone,North,Chandigarh,Chandigarh,05-04-2022,44656.58491,4,A. APR,Q1(AMJ),Q1,FY22-23,Very cooperative staff.,5,POSITIVE,In-Store Experience\r\nJMQ,Mall,Crocs,West Zone,West,Jaipur,Rajasthan,05-04-2022,44656.65236,4,A. APR,Q1(AMJ),Q1,FY22-23,Nice variety and quality,4,POSITIVE,Product Quality\r\nGNM,High-Street,Mochi Shoes,South Zone,South,Guntur,Andhra Pradesh,05-04-2022,44656.71372,4,A. APR,Q1(AMJ),Q1,FY22-23,Loved the collection in this,5,POSITIVE,Product Assortment\r\nGOQ,High-Street,Crocs,West Zone,West,Goa,Goa,05-04-2022,44656.75824,4,A. APR,Q1(AMJ),Q1,FY22-23,Helpful staff,5,POSITIVE,In-Store Experience\r\nBIQ,High-Street,Crocs,South Zone,South,Bangaluru,Karnataka,05-04-2022,44656.7685,4,A. APR,Q1(AMJ),Q1,FY22-23,\"Very small shop on the Indiranagar main road. It's to the right side as you come down from Domlur flyover.\nNot many options to choose from.\",4,POSITIVE,Product Assortment\r\nMEQ,Mall,Crocs,South Zone,South,Chennai,Tamil Nadu,06-04-2022,44657.58753,4,A. APR,Q1(AMJ),Q1,FY22-23,They are enstaffed with a very patient Sales team... Nice range though its a retail store inside an expensive mall some discount would have made the visit even more sweeter,5,POSITIVE,Product Assortment\r\nMCV,Mall,Walkway Shoes,South Zone,South,Mangalore,Karnataka,06-04-2022,44657.62488,4,A. APR,Q1(AMJ),Q1,FY22-23,\"One star is for the AC provided else no star...\nWorst service ever.. The guarantee exchange shop  but they frown upon exchange when u actually need it. Also the initial is taken, so that v don't come back for an exchange\nWrong information given about the materials of the goods sold.\",1,NEGATIVE,In-Store Experience\r\nCMQ,Mall,Crocs,East Zone,East,Kolkata,West Bengal,06-04-2022,44657.69087,4,A. APR,Q1(AMJ),Q1,FY22-23,Good staff and good collection,4,POSITIVE,Product Assortment\r\nPDM,High-Street,Mochi Shoes,South Zone,South,Pondicherry,Pondicherry,06-04-2022,44657.89884,4,A. APR,Q1(AMJ),Q1,FY22-23,NOT BUDGET FRIENDLY,4,POSITIVE,Product Pricing\r\nDGM,High-Street,Mochi Shoes,North Zone,North,Ghaziabad,Uttar Pradesh,06-04-2022,44657.96932,4,A. APR,Q1(AMJ),Q1,FY22-23,Good Experience with valuable price shop.,5,POSITIVE,In-Store Experience\r\nHAV,High-Street,Walkway Shoes,South Zone,South,Hyderabad,Telangana,07-04-2022,44658.51597,4,A. APR,Q1(AMJ),Q1,FY22-23,Don't buy any chappals here waste money me and my wife buy a 2 pairs of chappals after using 15 days fade out its look like dirty,1,NEGATIVE,Product Quality\r\nRIM,Mall,Mochi Shoes,East Zone,East,Raipur,Chhattisgarh,07-04-2022,44658.60131,4,A. APR,Q1(AMJ),Q1,FY22-23,I love the collection of loafers.,4,POSITIVE,Product Assortment\r\nBOM,Mall,Mochi Shoes,South Zone,South,Bangaluru,Karnataka,07-04-2022,44658.63829,4,A. APR,Q1(AMJ),Q1,FY22-23,\"Awesome collection of footwear both for men's and women's bit expensive,,,,\",4,POSITIVE,Product Assortment\r\nBLQ,Mall,Crocs,South Zone,South,Bangaluru,Karnataka,07-04-2022,44658.77264,4,A. APR,Q1(AMJ),Q1,FY22-23,Good collection and good response by staff,5,POSITIVE,Product Assortment\r\nSGM,Mall,Mochi Shoes,East Zone,East,Siliguri,West Bengal,07-04-2022,44658.94498,4,A. APR,Q1(AMJ),Q1,FY22-23,\"Excellent collection, humble staffs.\",5,POSITIVE,Product Assortment\r\nIMQ,Mall,Crocs,West Zone,West,Mumbai,Maharashtra,08-04-2022,44659.40623,4,A. APR,Q1(AMJ),Q1,FY22-23,Worst experience visiting this outlet I am treated by the workers of shop never visit this shop,1,NEGATIVE,In-Store Experience\r\nVNM,High-Street,Mochi Shoes,North Zone,North,Varanasi,Uttar Pradesh,08-04-2022,44659.45925,4,A. APR,Q1(AMJ),Q1,FY22-23,Good product,5,POSITIVE,Product Quality\r\nCDQ,High-Street,Crocs,North Zone,North,Chandigarh,Chandigarh,08-04-2022,44659.7074,4,A. APR,Q1(AMJ),Q1,FY22-23,New stocks and size I needed was not available.,2,NEGATIVE,Size Availability\r\nMKM,Mall,Mochi Shoes,South Zone,South,Chennai,Tamil Nadu,08-04-2022,44659.87421,4,A. APR,Q1(AMJ),Q1,FY22-23,\"Service by NASIR BASHA in Mochi shoes  Phoenix mall was outstanding. He helped us to pick up the best suited shoes as per our choice .\nThank you\",5,POSITIVE,In-Store Experience\r\nVNM,High-Street,Mochi Shoes,North Zone,North,Varanasi,Uttar Pradesh,09-04-2022,44660.36829,4,A. APR,Q1(AMJ),Q1,FY22-23,good ambience,5,POSITIVE,In-Store Experience\r\nRTQ,High-Street,Crocs,North Zone,North,Rohtak,Haryana,09-04-2022,44660.63535,4,A. APR,Q1(AMJ),Q1,FY22-23,Bought one pair. No complaint on the crocs but staff lied that if we give cell phone number to them then they will not send spam message. They said we will send only one message for feedback. But I am gettting spam messages now from them. Very unfair. DO NOT SHARE PHONE NUMBER WITH THEM.,3,NEUTRAL,OTHERS\r\nBNQ,High-Street,Crocs,North Zone,North,Bhatinda,Punjab,09-04-2022,44660.64191,4,A. APR,Q1(AMJ),Q1,FY22-23,Ultimate,5,POSITIVE,In-Store Experience\r\nDTM,High-Street,Mochi Shoes,West Zone,West,Mumbai,Maharashtra,09-04-2022,44660.6905,4,A. APR,Q1(AMJ),Q1,FY22-23,\"Variety of footwears, good staff, overall good\",5,POSITIVE,In-Store Experience\r\nMFV,Mall,Walkway Shoes,South Zone,South,Chennai,Tamil Nadu,09-04-2022,44660.70544,4,A. APR,Q1(AMJ),Q1,FY22-23,Good collections,3,NEUTRAL,Product Assortment\r\nGNM,High-Street,Mochi Shoes,South Zone,South,Guntur,Andhra Pradesh,09-04-2022,44660.73046,4,A. APR,Q1(AMJ),Q1,FY22-23,Order available here,4,POSITIVE,In-Store Experience\r\nGCM,Mall,Mochi Shoes,East Zone,East,Guwahati,Assam,09-04-2022,44660.89355,4,A. APR,Q1(AMJ),Q1,FY22-23,Nice shoes,5,POSITIVE,Product Assortment\r\n"};
+        function filledCell(cell) {
+          return cell !== '' && cell != null;
+        }
+        function loadFileData(filename) {
+        if (gk_isXlsx && gk_xlsxFileLookup[filename]) {
+            try {
+                var workbook = XLSX.read(gk_fileData[filename], { type: 'base64' });
+                var firstSheetName = workbook.SheetNames[0];
+                var worksheet = workbook.Sheets[firstSheetName];
+
+                // Convert sheet to JSON to filter blank rows
+                var jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1, blankrows: false, defval: '' });
+                // Filter out blank rows (rows where all cells are empty, null, or undefined)
+                var filteredData = jsonData.filter(row => row.some(filledCell));
+
+                // Heuristic to find the header row by ignoring rows with fewer filled cells than the next row
+                var headerRowIndex = filteredData.findIndex((row, index) =>
+                  row.filter(filledCell).length >= filteredData[index + 1]?.filter(filledCell).length
+                );
+                // Fallback
+                if (headerRowIndex === -1 || headerRowIndex > 25) {
+                  headerRowIndex = 0;
+                }
+
+                // Convert filtered JSON back to CSV
+                var csv = XLSX.utils.aoa_to_sheet(filteredData.slice(headerRowIndex)); // Create a new sheet from filtered array of arrays
+                csv = XLSX.utils.sheet_to_csv(csv, { header: 1 });
+                return csv;
+            } catch (e) {
+                console.error(e);
+                return "";
+            }
+        }
+        return gk_fileData[filename] || "";
+        }
+        </script><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CX – Voice of Customer Intelligence Dashboard</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prop-types/15.8.1/prop-types.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.2/babel.min.js"></script>
+  <script src="https://unpkg.com/papaparse@latest/papaparse.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chrono-node/1.3.11/chrono.min.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/recharts/2.15.0/Recharts.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <style>
+    body { 
+      font-family: 'Roboto', sans-serif; 
+      background: #e5e7eb;
+    }
+    .kpi-card { 
+      border-radius: 10px; 
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+      transition: transform 0.2s, box-shadow 0.2s; 
+      background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    }
+    .kpi-card:hover { 
+      transform: translateY(-5px); 
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2); 
+    }
+    .filter-drawer { 
+      position: fixed; 
+      top: 0; 
+      left: 0; 
+      height: 100%; 
+      width: 300px; 
+      background: #ffffff; 
+      box-shadow: 2px 0 8px rgba(0,0,0,0.1); 
+      transition: transform 0.3s ease-in-out; 
+      z-index: 20; 
+      overflow-y: auto; 
+    }
+    @media (max-width: 640px) {
+      .filter-drawer {
+        width: 250px;
+      }
+    }
+    .filter-drawer-hidden { 
+      transform: translateX(-100%); 
+    }
+    .toggle-button { 
+      position: fixed; 
+      top: 1rem; 
+      left: 1rem; 
+      z-index: 30; 
+      background: #3b82f6; 
+      color: white; 
+      padding: 0.5rem 1rem; 
+      border-radius: 8px; 
+      font-weight: 500; 
+      transition: background 0.2s; 
+    }
+    .toggle-button:hover { 
+      background: #1e40af; 
+    }
+    .dashboard-content { 
+      transition: margin-left 0.3s ease-in-out; 
+    }
+    .dashboard-content-full { 
+      margin-left: 0; 
+    }
+    .dashboard-content-shifted { 
+      margin-left: 300px; 
+    }
+    @media (max-width: 640px) {
+      .dashboard-content-shifted {
+        margin-left: 250px;
+      }
+    }
+    .filter-panel { 
+      padding: 1rem; 
+      border-bottom: 1px solid #e5e7eb; 
+    }
+    .filter-panel label span { 
+      color: #374151; 
+    }
+    .filter-panel-content { 
+      max-height: 192px; 
+      overflow-y: auto; 
+    }
+    .filter-tag { 
+      display: inline-flex; 
+      align-items: center; 
+      background: #3b82f6; 
+      color: white; 
+      padding: 4px 8px; 
+      border-radius: 12px; 
+      margin: 2px; 
+      font-size: 12px; 
+    }
+    .filter-tag-remove { 
+      margin-left: 6px; 
+      cursor: pointer; 
+    }
+    .search-input-container {
+      position: relative;
+      width: 100%;
+    }
+    .search-input {
+      width: 100%;
+      padding: 0.5rem 0.5rem 0.5rem 2rem;
+      background-color: #f3f4f6;
+      border: 1px solid #d1d5db;
+      border-radius: 0.375rem;
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+    }
+    .search-input:focus {
+      outline: none;
+      border-color: #3b82f6;
+      box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+    }
+    .search-icon {
+      position: absolute;
+      left: 0.5rem;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 1rem;
+      height: 1rem;
+      color: #6b7280;
+    }
+    .emotion-bubble { 
+      transition: all 0.3s ease; 
+      border-radius: 50%; 
+      padding: 8px 16px; 
+      display: inline-flex; 
+      align-items: center; 
+      justify-content: center; 
+      cursor: pointer; 
+    }
+    .emotion-bubble:hover { 
+      transform: scale(1.15); 
+      filter: brightness(1.1); 
+    }
+    .emotion-cloud-container { 
+      max-height: 300px; 
+      overflow: hidden; 
+      display: flex; 
+      flex-wrap: wrap; 
+      gap: 8px; 
+      padding: 10px; 
+    }
+    .chart-title { 
+      font-size: 1.25rem; 
+      font-weight: 600; 
+      color: #1e3a8a; 
+      margin-bottom: 1rem; 
+    }
+    .insight-card { 
+      background: linear-gradient(145deg, #ffffff, #f0f4f8); 
+      border-radius: 10px; 
+      padding: 1.5rem; 
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+      margin-bottom: 1rem; 
+    }
+    #map { 
+      height: 300px; 
+      border-radius: 10px; 
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="text/babel">
+    const { createRoot } = ReactDOM;
+    const {
+      BarChart, Bar, PieChart, Pie, Cell,
+      XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer,
+      LabelList, LineChart, Line
+    } = Recharts;
+
+    function App() {
+      const [data, setData] = React.useState([]);
+      const [filteredData, setFilteredData] = React.useState([]);
+      const [filters, setFilters] = React.useState({
+        businesses: [], zones: [], states: [], cities: [], stores: [],
+        mallHs: [], sentiments: [], fys: [], quarters: [], months: [],
+        improvementCategories: [], emotions: []
+      });
+      const [loading, setLoading] = React.useState(true);
+      const [csvFile, setCsvFile] = React.useState(null);
+      const [isDrawerOpen, setIsDrawerOpen] = React.useState(false);
+
+      // City coordinates mapping
+      const cityCoordinates = {
+        'Ajmer': [26.4499, 74.6399],
+        'Chennai': [13.0827, 80.2707],
+        'Calicut': [11.2588, 75.7804],
+        'Bhatinda': [30.2110, 74.9455],
+        'Pune': [18.5204, 73.8567],
+        'Gandhidam': [23.0711, 70.1337],
+        'Dehradun': [30.3165, 78.0322],
+        'Bangaluru': [12.9716, 77.5946],
+        'Patna': [25.5941, 85.1376],
+        'Manipal': [13.3500, 74.7850],
+        'Gurgaon': [28.4595, 77.0266],
+        'Goa': [15.2993, 74.1240],
+        'Allahabad': [25.4358, 81.8463],
+        'Coimbatore': [11.0168, 76.9558],
+        'Kolkata': [22.5726, 88.3639],
+        'Jamshedpur': [22.8046, 86.2029],
+        'Guntur': [16.3067, 80.4365],
+        'Mangalore': [12.9141, 74.8560],
+        'Pondicherry': [11.9416, 79.8083],
+        'Ghaziabad': [28.6692, 77.4538],
+        'Hyderabad': [17.3850, 78.4867],
+        'Raipur': [21.2514, 81.6296],
+        'Siliguri': [26.7271, 88.3953],
+        'Mumbai': [19.0760, 72.8777],
+        'Varanasi': [25.3176, 82.9739],
+        'Chandigarh': [30.7333, 76.7794],
+        'Jaipur': [26.9124, 75.7873],
+        'Rohtak': [28.8955, 76.6066],
+        'Guwahati': [26.1445, 91.7362]
+      };
+
+      // Custom Label Component for dialog-style labels
+      const CustomLabel = (props) => {
+        const { x, y, width, value } = props;
+        const text = value.toString();
+        const textWidth = text.length * 8;
+        const rectWidth = textWidth + 10;
+        const rectHeight = 20;
+        const rectX = x + (width - rectWidth) / 2;
+        const rectY = y - rectHeight - 5;
+        return (
+          <g>
+            <rect
+              x={rectX}
+              y={rectY}
+              width={rectWidth}
+              height={rectHeight}
+              fill="#000"
+              opacity={0.8}
+              rx={3}
+            />
+            <text
+              x={rectX + rectWidth / 2}
+              y={rectY + rectHeight / 2 + 4}
+              fill="#fff"
+              fontSize={12}
+              fontWeight={600}
+              textAnchor="middle"
+            >
+              {text}
+            </text>
+          </g>
+        );
+      };
+
+      // Feedback classification with structured categories
+      const classifyImprovementCategory = (text) => {
+        const lowerText = text.toLowerCase();
+        if (lowerText.includes('staff') || lowerText.includes('service') || lowerText.includes('salesman') || 
+            lowerText.includes('experience') || lowerText.includes('assistance') || lowerText.includes('interaction')) {
+          return 'Store Experience';
+        }
+        else if (lowerText.includes('quality') || lowerText.includes('material') || lowerText.includes('product') || 
+                 lowerText.includes('durability') || lowerText.includes('defect') || lowerText.includes('faulty')) {
+          return 'Product Quality';
+        }
+        else if (lowerText.includes('collection') || lowerText.includes('variety') || lowerText.includes('size') || 
+                 lowerText.includes('available') || lowerText.includes('stock') || lowerText.includes('availability')) {
+          return 'Inventory Management';
+        }
+        else if (lowerText.includes('price') || lowerText.includes('cost') || lowerText.includes('expensive') || 
+                 lowerText.includes('discount') || lowerText.includes('deal') || lowerText.includes('value')) {
+          return 'Pricing & Discounts';
+        }
+        else if (lowerText.includes('return') || lowerText.includes('exchange') || lowerText.includes('refund') || 
+                 lowerText.includes('policy') || lowerText.includes('returnable')) {
+          return 'Return & Refund Policies';
+        }
+        else if (lowerText.includes('support') || lowerText.includes('help') || lowerText.includes('assistance') || 
+                 lowerText.includes('responsive') || lowerText.includes('query') || lowerText.includes('resolution')) {
+          return 'Customer Support';
+        }
+        else if (lowerText.includes('promotion') || lowerText.includes('offer') || lowerText.includes('loyalty') || 
+                 lowerText.includes('deal') || lowerText.includes('coupon') || lowerText.includes('reward')) {
+          return 'Promotions & Offers';
+        }
+        else if (lowerText.includes('billing') || lowerText.includes('payment') || lowerText.includes('charge') || 
+                 lowerText.includes('overcharge') || lowerText.includes('invoice') || lowerText.includes('transaction')) {
+          return 'Billing & Payment Issues';
+        }
+        else if (lowerText.includes('behaviour') || lowerText.includes('rude') || lowerText.includes('polite') || 
+                 lowerText.includes('attitude') || lowerText.includes('courtesy') || lowerText.includes('professionalism')) {
+          return 'Staff Behaviour';
+        }
+        else if (lowerText.includes('wait') || lowerText.includes('queue') || lowerText.includes('delay') || 
+                 lowerText.includes('slow') || lowerText.includes('line') || lowerText.includes('turnaround')) {
+          return 'Wait Time / Queue Management';
+        }
+        return 'Miscellaneous';
+      };
+
+      // Reclassify Miscellaneous entries
+      const reclassifyMiscellaneous = (data) => {
+        let miscCount = data.filter(row => row.improvementCategory === 'Miscellaneous').length;
+        const totalCount = data.length;
+        let miscPercent = totalCount ? (miscCount / totalCount) * 100 : 0;
+
+        if (miscPercent <= 10) {
+          console.log(`Miscellaneous is ${miscPercent.toFixed(1)}% of feedback, within target.`);
+          return data;
+        }
+
+        console.log(`Miscellaneous is ${miscPercent.toFixed(1)}% of feedback, exceeding 10%. Reclassifying...`);
+        const updatedData = data.map(row => {
+          if (row.improvementCategory !== 'Miscellaneous') return row;
+          const lowerText = row['Customer Response'].toLowerCase();
+          if (lowerText.includes('bill') || lowerText.includes('pay') || lowerText.includes('charged')) {
+            return { ...row, improvementCategory: 'Billing & Payment Issues' };
+          }
+          else if (lowerText.includes('employee') || lowerText.includes('manager') || lowerText.includes('unprofessional')) {
+            return { ...row, improvementCategory: 'Staff Behaviour' };
+          }
+          else if (lowerText.includes('waiting') || lowerText.includes('long time') || lowerText.includes('crowd')) {
+            return { ...row, improvementCategory: 'Wait Time / Queue Management' };
+          }
+          else if (lowerText.includes('shop') || lowerText.includes('store') || lowerText.includes('visit')) {
+            return { ...row, improvementCategory: 'Store Experience' };
+          }
+          else if (lowerText.includes('item') || lowerText.includes('goods') || lowerText.includes('merchandise')) {
+            return { ...row, improvementCategory: 'Product Quality' };
+          }
+          return row;
+        });
+
+        miscCount = updatedData.filter(row => row.improvementCategory === 'Miscellaneous').length;
+        miscPercent = totalCount ? (miscCount / totalCount) * 100 : 0;
+        console.log(`After reclassification, Miscellaneous is ${miscPercent.toFixed(1)}% of feedback.`);
+        return updatedData;
+      };
+
+      // Processing and cleaning CSV data
+      const processAndCleanData = (rawData) => {
+        let processedData = rawData.map(row => {
+          const rating = parseInt(row['Customer Rating']) || 0;
+          const sentiment = row['Sentiment']?.toUpperCase() || 'NEUTRAL';
+          const date = chrono.parseDate(row['Comment Date_NEW']) || new Date();
+          return {
+            ...row,
+            'Customer Rating': rating,
+            'Sentiment': sentiment,
+            'Comment Date_NEW': date,
+            'Month': row['Month']?.trim() || 'Unknown',
+            'Year': row['FY']?.trim() || 'Unknown',
+            improvementCategory: classifyImprovementCategory(row['Customer Response']),
+            emotion: detectEmotion(row['Customer Response'], row['Customer Rating'], row['Sentiment']),
+            keyword: extractTopKeyword(row['Customer Response'])
+          };
+        }).filter(row => row['Customer Response'] && row['Customer Rating'] > 0);
+
+        processedData = reclassifyMiscellaneous(processedData);
+        return processedData;
+      };
+
+      // Simulated emotion detection
+      const detectEmotion = (text, rating, sentiment) => {
+        const lowerText = text.toLowerCase();
+        if (rating >= 4 && sentiment === 'POSITIVE') {
+          if (lowerText.includes('thank') || lowerText.includes('grateful')) return 'Gratitude';
+          if (lowerText.includes('love') || lowerText.includes('awesome')) return 'Appreciation';
+          if (lowerText.includes('happy') || lowerText.includes('great')) return 'Happy';
+          return 'Satisfaction';
+        } else if (rating <= 2 && sentiment === 'NEGATIVE') {
+          if (lowerText.includes('estimator') || lowerText.includes('awful')) return 'Disappointment';
+          if (lowerText.includes('confus')) return 'Confusion';
+          return 'Frustration';
+        }
+        return 'Neutral';
+      };
+
+      // NLP: Top Keyword Extraction
+      const extractTopKeyword = (text) => {
+        const lowerText = text.toLowerCase();
+        const keywords = [
+          'quality', 'service', 'staff', 'price', 'collection', 'size',
+          'experience', 'variety', 'discount', 'return', 'product', 'ambience',
+          'billing', 'payment', 'behaviour', 'wait', 'queue'
+        ];
+        return keywords.find(keyword => lowerText.includes(keyword)) || 'other';
+      };
+
+      // Loading CSV data
+      const loadCsvData = (csvContent) => {
+        Papa.parse(csvContent, {
+          header: true,
+          skipEmptyLines: true,
+          transformHeader: header => header.trim().replace(/^"|"$/g, ''),
+          transform: (value, header) => {
+            let cleaned = value.trim().replace(/^"|"$/g, '');
+            if (header === 'Customer Rating') return parseInt(cleaned) || 0;
+            return cleaned;
+          },
+          complete: (results) => {
+            const cleanedData = processAndCleanData(results.data);
+            setData(cleanedData);
+            setFilteredData(cleanedData);
+            setLoading(false);
+          },
+          error: (err) => console.error('CSV Parsing Error:', err)
+        });
+      };
+
+      // Initial data load
+      React.useEffect(() => {
+        const csv = loadFileData('3.csv');
+        loadCsvData(csv);
+      }, []);
+
+      // Handling file upload
+      const handleFileUpload = (event) => {
+        const file = event.target.files[0];
+        if (file) {
+          setCsvFile(file);
+          const reader = new FileReader();
+          reader.onload = (e) => {
+            loadCsvData(e.target.result);
+          };
+          reader.readAsText(file);
+        }
+      };
+
+      // Handling chart interactions
+      const handleChartClick = (filterType, value, additionalFilter = null) => {
+        setFilters(prev => {
+          const currentValues = prev[filterType] || [];
+          let newFilters = { ...prev };
+          if (currentValues.includes(value)) {
+            newFilters[filterType] = currentValues.filter(v => v !== value);
+          } else {
+            newFilters[filterType] = [...currentValues, value];
+          }
+          if (additionalFilter) {
+            const addFilterType = additionalFilter.type;
+            const addValue = additionalFilter.value;
+            const addCurrentValues = prev[addFilterType] || [];
+            if (addCurrentValues.includes(addValue)) {
+              newFilters[addFilterType] = addCurrentValues.filter(v => v !== addValue);
+            } else {
+              newFilters[addFilterType] = [...addCurrentValues, addValue];
+            }
+          }
+          return newFilters;
+        });
+      };
+
+      // Cascading filter options with alphabetical sorting
+      const availableOptions = React.useMemo(() => {
+        let tempData = [...data];
+
+        if (filters.businesses.length > 0) {
+          tempData = tempData.filter(row => filters.businesses.includes(row['Business Name']));
+        }
+        const zones = [...new Set(tempData.map(row => row['Zone New'] || 'Unknown'))].sort();
+
+        if (filters.zones.length > 0) {
+          tempData = tempData.filter(row => filters.zones.includes(row['Zone New']));
+        }
+        const states = [...new Set(tempData.map(row => row['State'] || 'Unknown'))].sort();
+
+        if (filters.states.length > 0) {
+          tempData = tempData.filter(row => filters.states.includes(row['State']));
+        }
+        const cities = [...new Set(tempData.map(row => row['City'] || 'Unknown'))].sort();
+
+        if (filters.cities.length > 0) {
+          tempData = tempData.filter(row => filters.cities.includes(row['City']));
+        }
+        const stores = [...new Set(tempData.map(row => row['Store Code'] || 'Unknown'))].sort();
+
+        if (filters.stores.length > 0) {
+          tempData = tempData.filter(row => filters.stores.includes(row['Store Code']));
+        }
+        const mallHs = [...new Set(tempData.map(row => row['Mall/HS'] || 'Unknown'))].sort();
+
+        const sentiments = ['POSITIVE', 'NEGATIVE', 'NEUTRAL'].sort();
+        const fys = [...new Set(data.map(row => row['FY'] || 'Unknown'))].sort();
+        const quarters = [...new Set(data.map(row => row['Quarter'] || 'Unknown'))].sort();
+        const months = [...new Set(data.map(row => row['Month'] || 'Unknown'))].sort();
+
+        return { zones, states, cities, stores, mallHs, sentiments, fys, quarters, months };
+      }, [data, filters]);
+
+      // Applying filters
+      React.useEffect(() => {
+        let tempData = [...data];
+        if (filters.businesses.length > 0) {
+          tempData = tempData.filter(row => filters.businesses.includes(row['Business Name']));
+        }
+        if (filters.zones.length > 0) {
+          tempData = tempData.filter(row => filters.zones.includes(row['Zone New']));
+        }
+        if (filters.states.length > 0) {
+          tempData = tempData.filter(row => filters.states.includes(row['State']));
+        }
+        if (filters.cities.length > 0) {
+          tempData = tempData.filter(row => filters.cities.includes(row['City']));
+        }
+        if (filters.stores.length > 0) {
+          tempData = tempData.filter(row => filters.stores.includes(row['Store Code']));
+        }
+        if (filters.mallHs.length > 0) {
+          tempData = tempData.filter(row => filters.mallHs.includes(row['Mall/HS']));
+        }
+        if (filters.sentiments.length > 0) {
+          tempData = tempData.filter(row => filters.sentiments.includes(row['Sentiment']));
+        }
+        if (filters.fys.length > 0) {
+          tempData = tempData.filter(row => filters.fys.includes(row['FY']));
+        }
+        if (filters.quarters.length > 0) {
+          tempData = tempData.filter(row => filters.quarters.includes(row['Quarter']));
+        }
+        if (filters.months.length > 0) {
+          tempData = tempData.filter(row => filters.months.includes(row['Month']));
+        }
+        if (filters.improvementCategories.length > 0) {
+          tempData = tempData.filter(row => filters.improvementCategories.includes(row.improvementCategory));
+        }
+        if (filters.emotions.length > 0) {
+          tempData = tempData.filter(row => filters.emotions.includes(row.emotion));
+        }
+        setFilteredData(tempData);
+      }, [filters, data]);
+
+      // Handle filter changes
+      const toggleFilter = (key, value) => {
+        setFilters(prev => {
+          const currentValues = prev[key] || [];
+          let newValues;
+          if (currentValues.includes(value)) {
+            newValues = currentValues.filter(v => v !== value);
+          } else {
+            newValues = [...currentValues, value];
+          }
+          return { ...prev, [key]: newValues };
+        });
+      };
+
+      // Reset filters
+      const resetFilters = () => {
+        setFilters({
+          businesses: [], zones: [], states: [], cities: [], stores: [],
+          mallHs: [], sentiments: [], fys: [], quarters: [], months: [],
+          improvementCategories: [], emotions: []
+        });
+      };
+
+      // Calculating KPIs
+      const totalReviews = filteredData.length;
+      const negativeReviews = filteredData.filter(row => row['Sentiment'] === 'NEGATIVE').length;
+      const negativePercent = totalReviews ? ((negativeReviews / totalReviews) * 100).toFixed(1) : 0;
+      const bestStore = filteredData.reduce((best, row) => {
+        const storeAvg = filteredData.filter(r => r['Store Code'] === row['Store Code'])
+          .reduce((sum, r) => sum + r['Customer Rating'], 0) /
+          filteredData.filter(r => r['Store Code'] === row['Store Code']).length;
+        return !best.store || storeAvg > best.avg ? { store: row['Store Code'], avg: storeAvg } : best;
+      }, { store: '', avg: 0 });
+      const worstStore = filteredData.reduce((worst, row) => {
+        const storeAvg = filteredData.filter(r => r['Store Code'] === row['Store Code'])
+          .reduce((sum, r) => sum + r['Customer Rating'], 0) /
+          filteredData.filter(r => r['Store Code'] === row['Store Code']).length;
+        return !worst.store || storeAvg < worst.avg ? { store: row['Store Code'], avg: storeAvg } : worst;
+      }, { store: '', avg: 5 });
+
+      // Areas of Improvement Data
+      const improvementData = {};
+      filteredData.forEach(row => {
+        const category = row.improvementCategory;
+        improvementData[category] = (improvementData[category] || 0) + 1;
+      });
+      const improvementChartData = Object.keys(improvementData).map(category => ({
+        name: category,
+        value: improvementData[category]
+      }));
+
+      // Sentiment Data for Pie Chart
+      const sentimentData = React.useMemo(() => [
+        { name: 'Positive', value: filteredData.filter(row => row['Sentiment'] === 'POSITIVE').length, color: '#10b981' },
+        { name: 'Negative', value: filteredData.filter(row => row['Sentiment'] === 'NEGATIVE').length, color: '#ef4444' },
+        { name: 'Neutral', value: filteredData.filter(row => row['Sentiment'] === 'NEUTRAL').length, color: '#f59e0b' }
+      ].filter(item => item.value > 0), [filteredData]);
+
+      // Sentiment Trend Over Time Data
+      const sentimentTrendData = React.useMemo(() => {
+        const monthFormat = new Intl.DateTimeFormat('en-US', { month: 'short', year: 'numeric' });
+        const sentimentByMonth = {};
+        
+        filteredData.forEach(row => {
+          const date = row['Comment Date_NEW'];
+          const monthKey = date instanceof Date && !isNaN(date)
+            ? monthFormat.format(date)
+            : row['Month']?.trim() || 'Unknown';
+          const sentiment = row['Sentiment'];
+          
+          if (!sentimentByMonth[monthKey]) {
+            sentimentByMonth[monthKey] = { POSITIVE: 0, NEGATIVE: 0, NEUTRAL: 0 };
+          }
+          sentimentByMonth[monthKey][sentiment]++;
+        });
+
+        const data = Object.keys(sentimentByMonth).map(month => ({
+          name: month,
+          Positive: sentimentByMonth[month].POSITIVE,
+          Negative: sentimentByMonth[month].NEGATIVE,
+          Neutral: sentimentByMonth[month].NEUTRAL,
+          sortDate: new Date(month + ' 1')
+        }));
+
+        return data.sort((a, b) => a.sortDate - b.sortDate);
+      }, [filteredData]);
+
+      // Heatmap Data for Store-wise Feedback Drivers
+      const heatmapData = React.useMemo(() => {
+        const categories = [
+          'Store Experience',
+          'Product Quality',
+          'Inventory Management',
+          'Pricing & Discounts',
+          'Customer Support',
+          'Staff Behaviour'
+        ];
+
+        const storeCounts = {};
+        filteredData.forEach(row => {
+          const store = row['Store Code'] || 'Unknown';
+          storeCounts[store] = (storeCounts[store] || 0) + 1;
+        });
+
+        const topStores = Object.keys(storeCounts)
+          .map(store => ({ store, count: storeCounts[store] }))
+          .sort((a, b) => b.count - a.count)
+          .slice(0, 10)
+          .map(item => item.store);
+
+        const heatmapMatrix = topStores.map(store => {
+          const row = { store };
+          categories.forEach(category => {
+            const cellData = filteredData.filter(
+              row => row['Store Code'] === store && row.improvementCategory === category
+            );
+            const sentimentCounts = {
+              POSITIVE: cellData.filter(row => row['Sentiment'] === 'POSITIVE').length,
+              NEGATIVE: cellData.filter(row => row['Sentiment'] === 'NEGATIVE').length,
+              NEUTRAL: cellData.filter(row => row['Sentiment'] === 'NEUTRAL').length
+            };
+            const totalCount = cellData.length;
+            row[category] = {
+              count: totalCount,
+              sentimentCounts,
+              sampleComment: cellData.length > 0
+                ? cellData[0]['Customer Response'] || 'No comment available'
+                : null
+            };
+          });
+          return row;
+        });
+
+        const maxCount = Math.max(
+          ...heatmapMatrix.flatMap(row => categories.map(cat => row[cat]?.count || 0)),
+          1
+        );
+
+        return { matrix: heatmapMatrix, categories, maxCount };
+      }, [filteredData]);
+
+      // Positive and Negative Comments Data
+      const positiveComments = React.useMemo(() => {
+        return filteredData
+          .filter(row => row['Sentiment'] === 'POSITIVE')
+          .sort((a, b) => b['Comment Date_NEW'] - a['Comment Date_NEW'])
+          .slice(0, 15);
+      }, [filteredData]);
+
+      const negativeComments = React.useMemo(() => {
+        return filteredData
+          .filter(row => row['Sentiment'] === 'NEGATIVE')
+          .sort((a, b) => b['Comment Date_NEW'] - a['Comment Date_NEW'])
+          .slice(0, 15);
+      }, [filteredData]);
+
+      // Emotion Cloud Data
+      const emotionData = [
+        { name: 'Satisfaction', value: filteredData.filter(row => row.emotion === 'Satisfaction').length, color: '#22c55e' },
+        { name: 'Neutral', value: filteredData.filter(row => row.emotion === 'Neutral').length, color: '#f59e0b' },
+        { name: 'Appreciation', value: filteredData.filter(row => row.emotion === 'Appreciation').length, color: '#3b82f6' },
+        { name: 'Happy', value: filteredData.filter(row => row.emotion === 'Happy').length, color: '#8b5cf6' },
+        { name: 'Gratitude', value: filteredData.filter(row => row.emotion === 'Gratitude').length, color: '#ec4899' },
+        { name: 'Confusion', value: filteredData.filter(row => row.emotion === 'Confusion').length, color: '#6b7280' },
+        { name: 'Frustration', value: filteredData.filter(row => row.emotion === 'Frustration').length, color: '#ef4444' },
+        { name: 'Disappointment', value: filteredData.filter(row => row.emotion === 'Disappointment').length, color: '#dc2626' }
+      ].filter(emotion => emotion.value > 0);
+
+      // Keyword Sentiment Analysis (Horizontal Bar)
+      const keywordSentimentData = {};
+      filteredData.forEach(row => {
+        const keyword = row.keyword;
+        const sentiment = row['Sentiment'];
+        if (!keywordSentimentData[keyword]) {
+          keywordSentimentData[keyword] = { POSITIVE: 0, NEGATIVE: 0, NEUTRAL: 0 };
+        }
+        keywordSentimentData[keyword][sentiment]++;
+      });
+      const keywordSentimentChartData = Object.keys(keywordSentimentData).map(keyword => ({
+        name: keyword,
+        Positive: keywordSentimentData[keyword].POSITIVE,
+        Negative: keywordSentimentData[keyword].NEGATIVE,
+        Neutral: keywordSentimentData[keyword].NEUTRAL
+      }));
+
+      // Sentiment by Zone
+      const sentimentByZone = {};
+      filteredData.forEach(row => {
+        const zone = row['Zone New'];
+        const sentiment = row['Sentiment'];
+        if (!sentimentByZone[zone]) {
+          sentimentByZone[zone] = { POSITIVE: 0, NEGATIVE: 0, NEUTRAL: 0 };
+        }
+        sentimentByZone[zone][sentiment]++;
+      });
+      const sentimentZoneData = Object.keys(sentimentByZone).map(zone => ({
+        name: zone,
+        Positive: sentimentByZone[zone].POSITIVE,
+        Negative: sentimentByZone[zone].NEGATIVE,
+        Neutral: sentimentByZone[zone].NEUTRAL
+      }));
+
+      // Dynamic Insights
+      const generateDynamicInsights = React.useMemo(() => {
+        const insights = [];
+
+        // Insight 1: Top Improvement Category
+        const topCategory = improvementChartData
+          .filter(item => item.name !== 'Miscellaneous')
+          .reduce((max, item) =>
+            item.value > (max.value || 0) ? item : max, {});
+        insights.push({
+          text: topCategory.name
+            ? `Focus on ${topCategory.name}: This theme received ${topCategory.value} mentions, indicating it as a key priority for improvement.`
+            : 'No significant improvement category identified.'
+        });
+
+        // Insight 2: Lowest Zone Satisfaction
+        const zoneRatings = {};
+        filteredData.forEach(row => {
+          const zone = row['Zone New'] || 'Unknown';
+          if (!zoneRatings[zone]) {
+            zoneRatings[zone] = { totalRating: 0, count: 0 };
+          }
+          zoneRatings[zone].totalRating += row['Customer Rating'];
+          zoneRatings[zone].count += 1;
+        });
+        const lowestZone = Object.keys(zoneRatings).reduce((lowest, zone) => {
+          const avgRating = zoneRatings[zone].totalRating / zoneRatings[zone].count;
+          return !lowest.zone || avgRating < lowest.avgRating ? { zone, avgRating } : lowest;
+        }, { zone: '', avgRating: Infinity });
+        let topComplaintTheme = 'Unknown';
+        if (lowestZone.zone) {
+          const negativeReviews = filteredData.filter(
+            row => row['Zone New'] === lowestZone.zone && row['Sentiment'] === 'NEGATIVE'
+          );
+          const themeCounts = {};
+          negativeReviews.forEach(row => {
+            const theme = row.improvementCategory;
+            themeCounts[theme] = (themeCounts[theme] || 0) + 1;
+          });
+          topComplaintTheme = Object.keys(themeCounts).reduce(
+            (max, theme) => themeCounts[theme] > (themeCounts[max] || 0) ? theme : max,
+            Object.keys(themeCounts)[0] || 'Unknown'
+          );
+        }
+        insights.push({
+          text: lowestZone.zone && lowestZone.avgRating !== Infinity
+            ? `Zone ${lowestZone.zone} saw a drop in satisfaction with an avg. rating of ${lowestZone.avgRating.toFixed(1)}, driven by negative sentiment around ${topComplaintTheme}. Recommend reviewing store ops in this region.`
+            : 'No significant experience dips detected.'
+        });
+
+        return insights;
+      }, [filteredData, improvementChartData]);
+
+      // Map Component
+      const StoreMap = ({ filteredData }) => {
+        const mapRef = React.useRef(null);
+        const mapInstanceRef = React.useRef(null);
+
+        React.useEffect(() => {
+          if (!mapRef.current) return;
+
+          if (!mapInstanceRef.current) {
+            mapInstanceRef.current = L.map(mapRef.current).setView([20.5937, 78.9629], 5);
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+              attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            }).addTo(mapInstanceRef.current);
+          }
+
+          // Clear existing markers
+          mapInstanceRef.current.eachLayer(layer => {
+            if (layer instanceof L.Marker || layer instanceof L.CircleMarker) {
+              mapInstanceRef.current.removeLayer(layer);
+            }
+          });
+
+          // Process city data
+          const storeByCity = {};
+          filteredData.forEach(row => {
+            const city = row['City'];
+            if (!storeByCity[city]) {
+              storeByCity[city] = {
+                stores: new Set(),
+                totalRating: 0,
+                feedbackCount: 0,
+                sentiments: { POSITIVE: 0, NEGATIVE: 0, NEUTRAL: 0 }
+              };
+            }
+            storeByCity[city].stores.add(row['Store Code']);
+            storeByCity[city].totalRating += row['Customer Rating'];
+            storeByCity[city].feedbackCount += 1;
+            storeByCity[city].sentiments[row['Sentiment']] += 1;
+          });
+
+          // Add markers
+          const bounds = [];
+          Object.keys(storeByCity).forEach(city => {
+            if (cityCoordinates[city]) {
+              const [lat, lng] = cityCoordinates[city];
+              const cityData = storeByCity[city];
+              const avgRating = (cityData.totalRating / cityData.feedbackCount).toFixed(1);
+              const storeList = Array.from(cityData.stores).join(', ');
+
+              // Determine dominant sentiment
+              const sentiments = cityData.sentiments;
+              let dominantSentiment = 'NEUTRAL';
+              let maxCount = sentiments.NEUTRAL;
+              if (sentiments.NEGATIVE >= maxCount) {
+                dominantSentiment = 'NEGATIVE';
+                maxCount = sentiments.NEGATIVE;
+              }
+              if (sentiments.POSITIVE > maxCount) {
+                dominantSentiment = 'POSITIVE';
+                maxCount = sentiments.POSITIVE;
+              }
+
+              // Assign color based on sentiment
+              const sentimentColor = {
+                POSITIVE: '#10b981', // Green
+                NEGATIVE: '#ef4444', // Red
+                NEUTRAL: '#f59e0b'   // Yellow
+              }[dominantSentiment];
+
+              const marker = L.circleMarker([lat, lng], {
+                radius: 8,
+                fillColor: sentimentColor,
+                color: '#fff',
+                weight: 1,
+                opacity: 1,
+                fillOpacity: 0.8
+              }).addTo(mapInstanceRef.current);
+
+              marker.bindPopup(`
+                <div class="p-2 text-sm">
+                  <p><span class="font-semibold">City:</span> ${city}</p>
+                  <p><span class="font-semibold">Store(s):</span> ${storeList}</p>
+                  <p><span class="font-semibold">Avg Rating:</span> ${avgRating}</p>
+                  <p><span class="font-semibold">Feedback Volume:</span> ${cityData.feedbackCount}</p>
+                </div>
+              `);
+
+              bounds.push([lat, lng]);
+            }
+          });
+
+          // Add legend
+          const legend = L.control({ position: 'bottomleft' });
+          legend.onAdd = function () {
+            const div = L.DomUtil.create('div', 'bg-white p-2 rounded shadow text-sm');
+            div.innerHTML = `
+              <div class="flex flex-col space-y-1">
+                <div class="flex items-center">
+                  <span class="inline-block w-4 h-4 mr-2 bg-green-500 rounded-full"></span>
+                  Positive
+                </div>
+                <div class="flex items-center">
+                  <span class="inline-block w-4 h-4 mr-2 bg-red-500 rounded-full"></span>
+                  Negative
+                </div>
+                <div class="flex items-center">
+                  <span class="inline-block w-4 h-4 mr-2 bg-yellow-500 rounded-full"></span>
+                  Neutral
+                </div>
+              </div>
+            `;
+            return div;
+          };
+          legend.addTo(mapInstanceRef.current);
+
+          // Fit map to bounds
+          if (bounds.length > 0) {
+            mapInstanceRef.current.fitBounds(bounds, { padding: [50, 50], maxZoom: 10 });
+          } else {
+            mapInstanceRef.current.setView([20.5937, 78.9629], 5);
+          }
+
+          // Cleanup
+          return () => {
+            if (mapInstanceRef.current) {
+              mapInstanceRef.current.eachLayer(layer => {
+                if (layer instanceof L.Marker || layer instanceof L.CircleMarker) {
+                  mapInstanceRef.current.removeLayer(layer);
+                }
+              });
+            }
+          };
+        }, [filteredData]);
+
+        return (
+          <div className="bg-white p-4 rounded-lg">
+            <h3 className="chart-title">Mapped Cities with Store Feedback Sentiment – India</h3>
+            <div id="map" ref={mapRef}></div>
+          </div>
+        );
+      };
+
+      // Heatmap Component
+      const FeedbackHeatmap = ({ matrix, categories, maxCount }) => {
+        const width = 400;
+        const height = 300;
+        const cellWidth = width / categories.length;
+        const cellHeight = (height - 80) / matrix.length; // Adjusted for axis
+        const xOffset = 80; // Space for Y-axis labels
+        const yOffset = 120; // Space for legend (60) + two-line X-axis labels (60)
+        const legendHeight = 60; // Space for legend
+
+        const getSentimentInfo = (count, sentimentCounts) => {
+          const { POSITIVE, NEGATIVE, NEUTRAL } = sentimentCounts;
+          const total = count;
+          if (total === 0) return { dominantSentiment: 'NONE', arrow: '', positivePct: 0, negativePct: 0, neutralPct: 0 };
+
+          const positivePct = (POSITIVE / total * 100).toFixed(1);
+          const negativePct = (NEGATIVE / total * 100).toFixed(1);
+          const neutralPct = (NEUTRAL / total * 100).toFixed(1);
+
+          let dominantSentiment = 'NEUTRAL';
+          let arrow = '↔';
+          if (POSITIVE > NEGATIVE && POSITIVE > NEUTRAL) {
+            dominantSentiment = 'POSITIVE';
+            arrow = '↑';
+          } else if (NEGATIVE > POSITIVE && NEGATIVE > NEUTRAL) {
+            dominantSentiment = 'NEGATIVE';
+            arrow = '↓';
+          }
+
+          return { dominantSentiment, arrow, positivePct, negativePct, neutralPct };
+        };
+
+        const hexToRgb = (hex) => {
+          const r = parseInt(hex.slice(1, 3), 16);
+          const g = parseInt(hex.slice(3, 5), 16);
+          const b = parseInt(hex.slice(5, 7), 16);
+          return { r, g, b };
+        };
+
+        const getBrightness = (hexColor) => {
+          const { r, g, b } = hexToRgb(hexColor);
+          return 0.299 * r + 0.587 * g + 0.114 * b;
+        };
+
+        const getTextColor = (hexColor) => {
+          const brightness = getBrightness(hexColor);
+          return brightness < 130 ? '#FFFFFF' : '#333333';
+        };
+
+        const getColor = (count, sentimentCounts) => {
+          const { dominantSentiment } = getSentimentInfo(count, sentimentCounts);
+          const ratio = count / maxCount;
+
+          if (count === 0) return '#d1d5db'; // Grey for no feedback
+
+          if (dominantSentiment === 'POSITIVE') {
+            if (ratio <= 0.2) return '#dcfce7'; // Light green
+            if (ratio <= 0.4) return '#bbf7d0';
+            if (ratio <= 0.6) return '#86efac';
+            if (ratio <= 0.8) return '#4ade80';
+            return '#15803d'; // Dark green
+          } else if (dominantSentiment === 'NEGATIVE') {
+            if (ratio <= 0.2) return '#fee2e2'; // Light red
+            if (ratio <= 0.4) return '#fecaca';
+            if (ratio <= 0.6) return '#f87171';
+            if (ratio <= 0.8) return '#ef4444';
+            return '#b91c1c'; // Dark red
+          } else {
+            return '#fef9c3'; // Pale yellow for neutral
+          }
+        };
+
+        // Map full category names to short labels with line breaks
+        const categoryLabels = {
+          'Store Experience': ['Store', 'Exp'],
+          'Product Quality': ['Prod', 'Qlty'],
+          'Inventory Management': ['Inv', 'Mgmt'],
+          'Pricing & Discounts': ['Price', 'Disc'],
+          'Customer Support': ['Cust', 'Support'],
+          'Staff Behaviour': ['Staff', 'Behvr']
+        };
+
+        return (
+          <svg width={width + xOffset} height={height + yOffset}>
+            {/* Legend */}
+            <g transform={`translate(${xOffset}, 20)`}>
+              <text x={0} y={20} fontSize={12} fontWeight="bold">Legend</text>
+              <rect x={0} y={30} width={15} height={15} fill="#15803d" />
+              <text x={20} y={40} fontSize={10}>Positive (↑)</text>
+              <rect x={80} y={30} width={15} height={15} fill="#b91c1c" />
+              <text x={100} y={40} fontSize={10}>Negative (↓)</text>
+              <rect x={160} y={30} width={15} height={15} fill="#fef9c3" />
+              <text x={180} y={40} fontSize={10}>Neutral (↔)</text>
+              <rect x={240} y={30} width={15} height={15} fill="#d1d5db" />
+              <text x={260} y={40} fontSize={10}>No Feedback</text>
+            </g>
+            {/* X-axis labels */}
+            {categories.map((category, index) => (
+              <text
+                key={category}
+                x={xOffset + index * cellWidth + cellWidth / 2}
+                y={yOffset - 10}
+                fontSize={10}
+                textAnchor="middle"
+              >
+                <tspan x={xOffset + index * cellWidth + cellWidth / 2} dy="-0.6em">
+                  {categoryLabels[category][0]}
+                </tspan>
+                <tspan x={xOffset + index * cellWidth + cellWidth / 2} dy="1.2em">
+                  {categoryLabels[category][1]}
+                </tspan>
+              </text>
+            ))}
+            {/* Y-axis labels */}
+            {matrix.map((row, rowIndex) => (
+              <text
+                key={row.store}
+                x={xOffset - 5}
+                y={yOffset + rowIndex * cellHeight + cellHeight / 2}
+                fontSize={10}
+                textAnchor="end"
+                dominantBaseline="middle"
+              >
+                {row.store}
+              </text>
+            ))}
+            {/* Heatmap cells */}
+            {matrix.map((row, rowIndex) =>
+              categories.map((category, colIndex) => {
+                const cellData = row[category] || { count: 0, sentimentCounts: { POSITIVE: 0, NEGATIVE: 0, NEUTRAL: 0 }, sampleComment: null };
+                const count = cellData.count;
+                const sentimentCounts = cellData.sentimentCounts;
+                const sampleComment = cellData.sampleComment;
+                const { dominantSentiment, arrow, positivePct, negativePct, neutralPct } = getSentimentInfo(count, sentimentCounts);
+                const fillColor = getColor(count, sentimentCounts);
+                const textColor = getTextColor(fillColor);
+
+                // Tooltip content
+                const tooltipContent = [
+                  `Total Mentions: ${count}`,
+                  `Sentiment Mix:`,
+                  `  ${positivePct}% Positive`,
+                  `  ${negativePct}% Negative`,
+                  `  ${neutralPct}% Neutral`,
+                  sampleComment ? `Sample Comment: ${sampleComment}` : 'Sample Comment: None'
+                ].join('\n');
+
+                return (
+                  <g
+                    key={`${row.store}-${category}`}
+                    onClick={() =>
+                      handleChartClick('stores', row.store, {
+                        type: 'improvementCategories',
+                        value: category
+                      })
+                    }
+                    style={{ cursor: 'pointer' }}
+                  >
+                    <rect
+                      x={xOffset + colIndex * cellWidth}
+                      y={yOffset + rowIndex * cellHeight}
+                      width={cellWidth - 2}
+                      height={cellHeight - 2}
+                      fill={fillColor}
+                      stroke="#e5e7eb"
+                      strokeWidth={1}
+                    />
+                    <text
+                      x={xOffset + colIndex * cellWidth + cellWidth / 2}
+                      y={yOffset + rowIndex * cellHeight + cellHeight / 2}
+                      fontSize={10}
+                      textAnchor="middle"
+                      dominantBaseline="middle"
+                      fill={textColor}
+                    >
+                      {count > 0 ? `${count} ${arrow}` : count}
+                    </text>
+                    <title>{tooltipContent}</title>
+                  </g>
+                );
+              })
+            )}
+          </svg>
+        );
+      };
+
+      // Filter Panel Component
+      const FilterPanel = ({ label, name, options, selectedValues, onChange }) => {
+        const [searchQuery, setSearchQuery] = React.useState('');
+
+        const handleCheckboxChange = (value) => {
+          onChange(name, value);
+        };
+
+        const removeTag = (value) => {
+          onChange(name, value);
+        };
+
+        // Filter options based on search query
+        const filteredOptions = options.filter(option =>
+          option.toLowerCase().includes(searchQuery.toLowerCase())
+        );
+
+        // Determine if search input should be shown
+        const showSearchInput = ['states', 'cities', 'stores'].includes(name);
+
+        return (
+          <div className="filter-panel">
+            <h3 className="text-sm font-medium text-gray-700 mb-2">{label}</h3>
+            {showSearchInput && (
+              <div className="search-input-container mb-2">
+                <svg
+                  className="search-icon"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                  />
+                </svg>
+                <input
+                  type="text"
+                  className="search-input"
+                  placeholder={`Search ${label.toLowerCase()}...`}
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                />
+              </div>
+            )}
+            <div className="flex flex-wrap gap-2 mb-2">
+              {selectedValues.map(value => (
+                <span key={value} className="filter-tag">
+                  {value}
+                  <span className="filter-tag-remove" onClick={() => removeTag(value)}>×</span>
+                </span>
+              ))}
+            </div>
+            <div className="filter-panel-content">
+              {filteredOptions.map(option => (
+                <label key={option} className="flex items-center space-x-2 mb-1">
+                  <input
+                    type="checkbox"
+                    checked={selectedValues.includes(option)}
+                    onChange={() => handleCheckboxChange(option)}
+                    className="h-4 w-4 text-blue-600 focus:ring-blue-500"
+                  />
+                  <span className="text-sm">{option}</span>
+                </label>
+              ))}
+            </div>
+          </div>
+        );
+      };
+
+      // Filter Drawer Component
+      const FilterDrawer = () => {
+        return (
+          <div className={`filter-drawer ${isDrawerOpen ? '' : 'filter-drawer-hidden'}`}>
+            <div className="p-4">
+              <h2 className="text-lg font-semibold text-blue-900 mb-4">Filters</h2>
+              <FilterPanel
+                label="Business Name"
+                name="businesses"
+                options={[...new Set(data.map(row => row['Business Name']))].sort()}
+                selectedValues={filters.businesses}
+                onChange={toggleFilter}
+              />
+              <FilterPanel
+                label="Zone New"
+                name="zones"
+                options={availableOptions.zones}
+                selectedValues={filters.zones}
+                onChange={toggleFilter}
+              />
+              <FilterPanel
+                label="State"
+                name="states"
+                options={availableOptions.states}
+                selectedValues={filters.states}
+                onChange={toggleFilter}
+              />
+              <FilterPanel
+                label="City"
+                name="cities"
+                options={availableOptions.cities}
+                selectedValues={filters.cities}
+                onChange={toggleFilter}
+              />
+              <FilterPanel
+                label="Store Code"
+                name="stores"
+                options={availableOptions.stores}
+                selectedValues={filters.stores}
+                onChange={toggleFilter}
+              />
+              <FilterPanel
+                label="Mall/HS"
+                name="mallHs"
+                options={availableOptions.mallHs}
+                selectedValues={filters.mallHs}
+                onChange={toggleFilter}
+              />
+              <FilterPanel
+                label="Sentiment"
+                name="sentiments"
+                options={availableOptions.sentiments}
+                selectedValues={filters.sentiments}
+                onChange={toggleFilter}
+              />
+              <FilterPanel
+                label="Financial Year"
+                name="fys"
+                options={availableOptions.fys}
+                selectedValues={filters.fys}
+                onChange={toggleFilter}
+              />
+              <FilterPanel
+                label="Quarter"
+                name="quarters"
+                options={availableOptions.quarters}
+                selectedValues={filters.quarters}
+                onChange={toggleFilter}
+              />
+              <FilterPanel
+                label="Month"
+                name="months"
+                options={availableOptions.months}
+                selectedValues={filters.months}
+                onChange={toggleFilter}
+              />
+              <button
+                className="w-full bg-blue-600 text-white p-2 rounded hover:bg-blue-700 mt-4"
+                onClick={resetFilters}
+              >
+                Reset Filters
+              </button>
+            </div>
+          </div>
+        );
+      };
+
+      // Dynamic chart title with sentiment
+      const feedbackChartTitle = `Key Drivers of Customer Feedback (${
+        filters.sentiments.length === 1 ? filters.sentiments[0] : 'All Sentiments'
+      })`;
+
+      if (loading) {
+        return (
+          <div className="flex justify-center items-center h-screen">
+            <p className="text-xl text-blue-600">Loading Dashboard...</p>
+          </div>
+        );
+      }
+
+      // Determine which panels to show based on sentiment filter
+      const showPositivePanel = filters.sentiments.length === 0 || filters.sentiments.includes('POSITIVE');
+      const showNegativePanel = filters.sentiments.length === 0 || filters.sentiments.includes('NEGATIVE');
+
+      return (
+        <div>
+          <button
+            className="toggle-button"
+            onClick={() => setIsDrawerOpen(!isDrawerOpen)}
+            aria-label={isDrawerOpen ? 'Hide Filters' : 'Show Filters'}
+          >
+            {isDrawerOpen ? 'Hide Filters' : 'Show Filters'}
+          </button>
+          <FilterDrawer />
+          <div className={`dashboard-content ${isDrawerOpen ? 'dashboard-content-shifted' : 'dashboard-content-full'} p-6 max-w-7xl mx-auto`}>
+            {/* File Upload */}
+            <div className="mb-6">
+              <label className="block text-sm font-medium text-gray-700 mb-2">Upload New CSV Data</label>
+              <input
+                type="file"
+                accept=".csv"
+                onChange={handleFileUpload}
+                className="block w-full text-sm text-gray-500
+                  file:mr-4 file:py-2 file:px-4
+                  file:rounded-full file:border-0
+                  file:text-sm file:font-semibold
+                  file:bg-blue-50 file:text-blue-700
+                  hover:file:bg-blue-100"
+              />
+            </div>
+
+            {/* Dynamic Insights */}
+            <div className="mb-8">
+              <h2 className="text-2xl font-bold text-blue-900 mb-4">Top Insights</h2>
+              {generateDynamicInsights.map((insight, index) => (
+                <div key={index} className="insight-card">
+                  <p className="text-gray-800">{index + 1}. {insight.text}</p>
+                </div>
+              ))}
+            </div>
+
+            {/* KPI Cards */}
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
+              <div className="kpi-card p-4 text-center">
+                <h3 className="text-lg font-semibold text-blue-800">Total Reviews</h3>
+                <p className="text-2xl text-green-600">{totalReviews}</p>
+              </div>
+              <div className="kpi-card p-4 text-center">
+                <h3 className="text-lg font-semibold text-blue-800">% Negative</h3>
+                <p className="text-2xl text-red-600">{negativePercent}%</p>
+              </div>
+              <div className="kpi-card p-4 text-center">
+                <h3 className="text-lg font-semibold text-blue-800">Best Store</h3>
+                <p className="text-2xl text-green-600">{bestStore.store || 'N/A'} ({bestStore.avg.toFixed(1)})</p>
+              </div>
+              <div className="kpi-card p-4 text-center">
+                <h3 className="text-lg font-semibold text-blue-800">Lowest Rated</h3>
+                <p className="text-2xl text-red-600">{worstStore.store || 'N/A'} ({worstStore.avg.toFixed(1)})</p>
+              </div>
+            </div>
+
+            {/* AI-Powered Insights */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+              <div className="bg-white p-4 rounded-lg">
+                <h3 className="chart-title">{feedbackChartTitle}</h3>
+                <ResponsiveContainer width="100%" height={300}>
+                  <BarChart data={improvementChartData} margin={{ top: 40, right: 30, left: 20, bottom: 60 }}>
+                    <CartesianGrid strokeDasharray="3 3" />
+                    <XAxis 
+                      dataKey="name" 
+                      fontSize={12} 
+                      angle={-45} 
+                      textAnchor="end" 
+                      interval={0} 
+                      height={80}
+                    />
+                    <YAxis fontSize={12} />
+                    <Tooltip />
+                    <Bar
+                      dataKey="value"
+                      fill="#3b82f6"
+                      onClick={(data) => handleChartClick('improvementCategories', data.name)}
+                      style={{ cursor: 'pointer' }}
+                    >
+                      <LabelList dataKey="value" content={CustomLabel} />
+                      {improvementChartData.map((entry, index) => (
+                        <Cell
+                          key={`cell-${index}`}
+                          fill={filters.improvementCategories.includes(entry.name) ? '#1e40af' : '#3b82f6'}
+                        />
+                      ))}
+                    </Bar>
+                  </BarChart>
+                </ResponsiveContainer>
+              </div>
+              <div className="bg-white p-4 rounded-lg">
+                <h3 className="chart-title">Emotion Cloud</h3>
+                <div className="emotion-cloud-container">
+                  {emotionData.map((emotion, index) => (
+                    <div
+                      key={index}
+                      className="emotion-bubble"
+                      style={{
+                        backgroundColor: filters.emotions.includes(emotion.name) ? '#1e3a8a' : emotion.color,
+                        color: 'white',
+                        fontSize: `${Math.min(12 + Math.sqrt(emotion.value) * 2, 24)}px`,
+                        cursor: 'pointer'
+                      }}
+                      onClick={() => handleChartClick('emotions', emotion.name)}
+                    >
+                      {emotion.name}
+                    </div>
+                  ))}
+                </div>
+              </div>
+              <div className="bg-white p-4 rounded-lg">
+                <h3 className="chart-title">Sentiment Breakdown</h3>
+                <ResponsiveContainer width="100%" height={300}>
+                  <PieChart margin={{ top: 30, right: 20, bottom: 20, left: 20 }}>
+                    <Pie
+                      data={sentimentData}
+                      dataKey="value"
+                      nameKey="name"
+                      cx="50%"
+                      cy="50%"
+                      outerRadius={80}
+                      label={{
+                        position: 'inside',
+                        formatter: (value) => `${(value / filteredData.length * 100).toFixed(1)}%`,
+                        fontWeight: 'bold'
+                      }}
+                      labelLine={false}
+                    >
+                      {sentimentData.map((entry, index) => (
+                        <Cell key={`cell-${index}`} fill={entry.color} />
+                      ))}
+                    </Pie>
+                    <Tooltip
+                      formatter={(value, name) => [
+                        <div className="text-sm">
+                          <p><span className="font-semibold">Sentiment:</span> {name}</p>
+                          <p><span className="font-semibold">Percentage:</span> {(value / filteredData.length * 100).toFixed(1)}%</p>
+                          <p><span className="font-semibold">Count:</span> {value} responses</p>
+                        </div>
+                      ]}
+                    />
+                    <Legend />
+                  </PieChart>
+                </ResponsiveContainer>
+              </div>
+            </div>
+
+            {/* New AI Visuals */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+              <div className="bg-white p-4 rounded-lg">
+                <h3 className="chart-title">Sentiment by Zone</h3>
+                <ResponsiveContainer width="100%" height={250}>
+                  <BarChart data={sentimentZoneData}>
+                    <CartesianGrid strokeDasharray="3 3" />
+                    <XAxis dataKey="name" fontSize={12} />
+                    <YAxis fontSize={12} />
+                    <Tooltip />
+                    <Legend />
+                    <Bar dataKey="Positive" stackId="a" fill="#2dd4bf" />
+                    <Bar dataKey="Negative" stackId="a" fill="#f87171" />
+                    <Bar dataKey="Neutral" stackId="a" fill="#facc15" />
+                  </BarChart>
+                </ResponsiveContainer>
+              </div>
+              <div className="bg-white p-4 rounded-lg">
+                <h3 className="chart-title">Sentiment Trend Over Time</h3>
+                <ResponsiveContainer width="100%" height={250}>
+                  <LineChart data={sentimentTrendData} margin={{ top: 20, right: 30, left: 20, bottom: 60 }}>
+                    <CartesianGrid strokeDasharray="3 3" />
+                    <XAxis 
+                      dataKey="name" 
+                      fontSize={12} 
+                      angle={-45} 
+                      textAnchor="end" 
+                      interval={0} 
+                      height={60}
+                    />
+                    <YAxis fontSize={12} />
+                    <Tooltip />
+                    <Legend />
+                    <Line 
+                      type="monotone" 
+                      dataKey="Positive" 
+                      stroke="#2dd4bf" 
+                      strokeWidth={2}
+                      onClick={() => handleChartClick('sentiments', 'POSITIVE')}
+                      style={{ cursor: 'pointer' }}
+                    />
+                    <Line 
+                      type="monotone" 
+                      dataKey="Negative" 
+                      stroke="#f87171" 
+                      strokeWidth={2}
+                      onClick={() => handleChartClick('sentiments', 'NEGATIVE')}
+                      style={{ cursor: 'pointer' }}
+                    />
+                    <Line 
+                      type="monotone" 
+                      dataKey="Neutral" 
+                      stroke="#facc15" 
+                      strokeWidth={2}
+                      onClick={() => handleChartClick('sentiments', 'NEUTRAL')}
+                      style={{ cursor: 'pointer' }}
+                    />
+                  </LineChart>
+                </ResponsiveContainer>
+              </div>
+              <div className="bg-white p-4 rounded-lg">
+                <h3 className="chart-title">Keyword Sentiment Analysis</h3>
+                <ResponsiveContainer width="100%" height={250}>
+                  <BarChart data={keywordSentimentChartData} layout="vertical" margin={{ top: 20, right: 30, left: 20, bottom: 20 }}>
+                    <CartesianGrid strokeDasharray="3 3" />
+                    <XAxis type="number" fontSize={12} />
+                    <YAxis dataKey="name" type="category" fontSize={12} width={100} />
+                    <Tooltip />
+                    <Legend />
+                    <Bar dataKey="Positive" stackId="a" fill="#10b981" />
+                    <Bar dataKey="Negative" stackId="a" fill="#ef4444" />
+                    <Bar dataKey="Neutral" stackId="a" fill="#f59e0b" />
+                  </BarChart>
+                </ResponsiveContainer>
+              </div>
+            </div>
+
+            {/* Heatmap and Map */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+              <div className="bg-white p-4 rounded-lg">
+                <h3 className="chart-title">Key Feedback Drivers Across Top 10 Stores</h3>
+                <ResponsiveContainer width="100%" height={360}>
+                  <FeedbackHeatmap
+                    matrix={heatmapData.matrix}
+                    categories={heatmapData.categories}
+                    maxCount={heatmapData.maxCount}
+                  />
+                </ResponsiveContainer>
+              </div>
+              <StoreMap filteredData={filteredData} />
+            </div>
+
+            {/* Customer Comments */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {showPositivePanel && (
+                <div className="bg-white p-4 rounded-lg overflow-y-auto max-h-[400px]">
+                  <h3 className="chart-title">Positive Comments (Top 15) – By Date</h3>
+                  {positiveComments.length > 0 ? (
+                    positiveComments.map((row, index) => (
+                      <div key={index} className="mb-4 p-2 border-b">
+                        <p className="text-sm">
+                          😊 <strong>{row['Customer Response']}</strong>
+                        </p>
+                        <p className="text-xs text-gray-500">
+                          Store: {row['Store Code']} | Date: {row['Comment Date_NEW'].toLocaleDateString()}
+                        </p>
+                      </div>
+                    ))
+                  ) : (
+                    <p className="text-sm text-gray-500">No positive comments available.</p>
+                  )}
+                </div>
+              )}
+              {showNegativePanel && (
+                <div className="bg-white p-4 rounded-lg overflow-y-auto max-h-[400px]">
+                  <h3 className="chart-title">Negative Comments (Top 15) – By Date</h3>
+                  {negativeComments.length > 0 ? (
+                    negativeComments.map((row, index) => (
+                      <div key={index} className="mb-4 p-2 border-b">
+                        <p className="text-sm">
+                          😣 <strong>{row['Customer Response']}</strong>
+                        </p>
+                        <p className="text-xs text-gray-500">
+                          Store: {row['Store Code']} | Date: {row['Comment Date_NEW'].toLocaleDateString()}
+                        </p>
+                      </div>
+                    ))
+                  ) : (
+                    <p className="text-sm text-gray-500">No negative comments available.</p>
+                  )}
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+      );
+    }
+
+    const root = createRoot(document.getElementById('root'));
+    root.render(<App />);
+  </script>
+</body>
+</html>
